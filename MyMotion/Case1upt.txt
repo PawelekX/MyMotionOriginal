@@ -1,0 +1,133 @@
+USE CASE 1.1
+
+
+Ćwicz kiedy chcesz i gdzie chcesz z wirtualnym trenerem. Program ćwiczeń dostosowuje się do Ciebie.
+Ustaw przed sobą smarfton lub laptop a zaawanasowany algorytm rozpozna Twój ruch. Koniec z przerywaniem
+ćwiczeń, żeby wybrać kolejne ćwiczenia w aplikacji.
+
+USE CASE 1.2
+
+Twój osobisty jogin czeka ma Ciebie w kązdym momencie. Nasze algorytmy widzenia maszynowego rozpoznają
+pozę, podpowiedzą jak poprawić pozę i wygnerują szczegółowy raport po każdej sesji.
+
+USE CASE 1.3
+
+
+Domowa rehablitacja jeszcze nigdy nie była tak przyjazna. MyMotion to kompleksowa rehabilitacja dobrana
+do Twoich potrzeb. Nasi eksperci określą dla Ciebie indywidualne cele zdrowotne. Zaawansowany algorytm oceni
+zakres ruchu i liczbę powtórzeń w każdym ćwiczeniu. Osiągaj cele na swój sposób.
+
+???ZALETY???
+
+WIRTUALNY TRENER
+Rozpoznaje ćwiczenie i liczbę powtórzeń.
+
+TWÓJ OSOBISTY COACH
+Osiągasz cel na swój sposób (your way)
+
+SPERSONALIZOWANA DOMOWA REHABILITACJA
+Wykorzystaj wiedzę ekspertów ćwicząc w domu.
+
+MONITOROWANIE POSTĘPÓW
+Uzyskaj szczegółowy raport z każdej sesji treningowej.
+
+
+
+
+USE CASE 2.1
+
+Ćwiczenia z obciążeniem nigdy nie były takie proste! MyMotion rozpoznaje ćwiczenie i liczbę powtórzeń oraz ciężar
+z jakim pracujesz. Ustaw cele treningu i pozwól się prowadzic wirtualnemu trenerowi ćwicząć w domu.
+
+USE CASE 2.2
+
+Kiedy ćwiczysz skupiaj się wyłącznie na celu. Resztę pozostaw MyMotion. Odwiedzając siłownię lub salę gimnastyczną
+z MyMotion dostaniesz raport o wykonanych ćwiczeniach wraz z obciążeniem i liczbą powtórzeń. MyMotion monitoruje Twoje
+postępy.
+
+
+???ZALETY???
+
+ROZPOZNANIE ĆWICZEŃ I OBCIĄŻEŃ
+
+MyMotion rozpozna jakie wykonujesz ćwiczenie i liczbę powtórzeń każdym obciążeniem.
+
+
+PERSONALIZUJ SWÓJ SPRZĘT
+
+Zakup oryginalne obciążenia MyMotion lub wykorzystaj posiadany sprzęt. Twój wybór.
+
+ĆWICZ W SWOIM RYTMIE NA ULUBIONEJ SIŁOWNI
+
+Przełomowe narzędzie dla siłowni i sal gimnastycznych - wirtualny trener personalny zawsze przy Tobie
+
+WIEDZA TO POTĘGA
+
+Monitoruj postępy w najprostszy możliwy sposób z automatycznym raportem MyMotion.
+
+
+
+USE CASE 3
+
+Ćwicz z najlepszymi trenerami personalnymi nie wychodząc z ulubionej siłowni. MyMotion to sesje z najlepszymi trenerami 
+w czasie rzeczywistym lub wtedy kiedy masz czas dla siebie. Po każdej sesji dostaniesz indywidualny raport i wskazówki Mistrza jak
+udoskonalić Twój trening.
+ 
+
+
+ĆWICZ ZAWSZE Z ULUBIONYM TRENEREM	
+
+Możesz ćwiczyć w dowolnym mijescu z usługą MyMotion - rejestracja Twojego ruchu trafi do wybranego trenera.
+
+MISTRZ JEST JEDEN...W WIELU MIEJSCACH MA RAZ
+
+Dołącz do treningu w dowolnym miejscu, gdzie transmitowana jest sesja ćwiczeń.
+
+PORÓWNUJ SIĘ Z NAJLEPSZYMI
+
+Algorytm MyMotion zestawia Twój profil ruchu z wzorcem trenera.
+
+OBSERWUJ SWOJE POSTĘPY I KORZYSTAJ ZE WSKAZÓWEK TRENERA.
+
+Każdą sesję kończy szczegółowy raport Twoich postępów.
+
+
+						TECHNOLOGIE
+
+ZAAWANSOWANY ALGORYTM WIDZENIA MASZYNOWEGO
+
+Usługa MyMotion działa dzięki technologii widzenia maszynowego i wykorzystania sztucznej
+inteligencji do analizy obrazu.Twoje ciało jest najlepszym kontrolerem, jedynym interfejsem jakiego potrzebujesz.
+Sterujesz treningiem, sesją jogi i rehabilitacją wyłącznie ruchem Twojego ciała. MyMotion rozpozna Twoje intencje.
+
+STALE ROSNĄCA BAZA WZORCÓW ĆWICZEŃ
+
+Automatyczna ocena ruchu użytkownika i porównanie ze wzorcem umożliwia identyfikację wykonanych ćwiczeń. Koniec z ciągłym
+przerywaniem w celu wyboru ćwiczeń. Ćwicz w swoim rytmie. MyMotion rozpozna wykonywane ćwiczenie, liczbę powtórzeń, oceni
+zakres ruchu i udzieli wskazówek jak poprawić ćwiczenie.
+
+DWIE TECHNOLOGIE MyMotion NA MIARĘ TWOICH POTRZEB
+
+Do ćwiczeń w domu potrzebujesz wyłącznie smartfonu lub tabletu. Pojedyncza kamera wystarczy żebyś mógł korzystać z MyMotion.
+Wszystko dzięki niezwykle efektywnym algorytmom sztucznej inteligencji. Monitoruj całą strefę dzięki naszej autorskiej
+technologii inteligentnych kamer. To rozwiązanie dla siłowni, sal fitness i sal gimnastycznych.
+
+RÓWNOCZESNA REJESTRACJA RUCHU WIĘCEJ NIŻ JEDNEJ OSOBY
+
+MyMotion dla siłowni i sal fitness to system inteligentnych kamer, które śledzą postępy każdej osoby w strefie. Każda osoba
+otrzyma indywidualny raport z ćwiczeń i wskazówki. MyMotion to najbardziej efektwyny, wirtualny trener personalny.
+Jakie ćwiczenia wykonałeś, ile powtórzeń, z jakim obciążeniem i w jakim czasie - MyMotion zapamięta to wszystko, żebyś Ty mógł skupić się
+wyłącznie na celu. 
+
+
+UNIKALNY MODEL ĆWICZEŃ ZORIENTOWANY NA CELU
+
+Przestań ćwiczyć jakbyś był niewolnikiem zasad innych ludzi. MyMotion to system, który ogeruje wolność jak nigdy wcześniej.
+Wykonuj ćwiczenia w swoim rytmie, w takiej kolejności jakiej lubisz. MyMotion dopilnuje, żebyś osiągnął swój cel w zaplanowanym czasie.
+
+DWUKIERUNKOWA TRANSMISJA SESJI TRENINGOWYM EFEKTYWNA JAK NIGDY WCZEŚNIEJ
+
+Jesteś trenerem personalnym lub prowadzisz treningi dla grup zorganizowanych? MyMotion nie pozwoli Ci, żeby ograniczała Cię wielkość sali ćwiczeń.
+Transmisja Motion+ przekazuje Twój obraz w dowolne miejsce na świecie - od teraz Twoi fani mogą ćwiczyć z Tobą w lokalnych salach gimnastycznych.
+MyMotion porówna sesje ćwiczeń każdego użytkownika z Twoim wzorcem ruchu. 
+Dwukierunkowa transmisja Motion+ pozwoli Ci śledzić postępy użytkowników. jesteś przecież jednynym trenerem jakiego potrzebują Twoi fani.
