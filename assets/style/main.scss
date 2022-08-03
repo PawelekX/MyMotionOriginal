@@ -68,6 +68,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
+<<<<<<< HEAD
     padding-top: 60px;
     padding-bottom: 60px;
     height: auto;
@@ -85,6 +86,11 @@ body {
             height: auto;
         }
     }
+=======
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+>>>>>>> 4f5e747fc6041adbc638eba6d836f470ec72904d
 }
 
 .section-advantages {
@@ -122,16 +128,6 @@ body {
         height: 500px;
     }
 }
-
-// .describe-card {
-//     background-color: #F2F2F2; 
-//     border-radius: 12px;
-//     color: black;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     height: 500px;
-// }
 
 .section-recommendations {
     width: 100%;
@@ -180,6 +176,114 @@ body {
                 text-overflow: ellipsis;
             }
         }
+    }
+}
+
+.section-technologies {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #383E3C;
+    padding: 30px;
+
+    .technology-cards-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+    }
+
+    .technology-card-first-theme {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 10px;
+        height: 580px;
+        max-width: 400px;
+        background-color: #5FABF1;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 70px;
+        
+        h5 {
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        
+        span {
+            font-size: 18px;
+            @media only screen and (max-width: 600px) {
+                font-size: 17px;
+            }
+        }
+
+        .icons-technology-container {
+            padding: 20px;
+            clip-path: circle();
+            background-color: white;
+        
+            img {
+                max-width: 80px;
+            }
+        }
+    }
+
+
+    .technology-card-second-theme {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 10px;
+        height: 580px;
+        max-width: 400px;
+        background-color: white;
+        color: #5FABF1;
+        text-align: center;
+        padding: 10px;
+
+        h5 {
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        
+        span {
+            font-size: 17px;
+            @media only screen and (max-width: 600px) {
+                font-size: 16px;
+            }
+            color: black;
+        }
+
+        .icons-technology-container {
+            padding: 20px;
+            clip-path: circle();
+            background-color: #5FABF1;
+        
+            img {
+                max-width: 80px;
+            }
+        }
+    }
+}
+
+.section-partners {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #383E3C;
+    padding: 100px;
+
+    .partners-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 
