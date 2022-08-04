@@ -26,6 +26,11 @@ body {
     font-size: 20px;
 }
 
+.arrows {
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+}
 .parallax {
     background-position: center center;
     background-size: cover;
@@ -267,4 +272,27 @@ body {
     }
 }
 
+.section-contact {
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding: 100px;
 
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contact-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #F2F2F2; 
+            color: black;
+            border-radius: 12px;
+            height: 500px;
+        }
+    }
+}
