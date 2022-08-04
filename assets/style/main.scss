@@ -68,29 +68,9 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-<<<<<<< HEAD
-    padding-top: 60px;
-    padding-bottom: 60px;
-    height: auto;
-
-    .describe-card {
-        background-color: #F2F2F2; 
-        border-radius: 12px;
-        color: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 500px;
-
-        @media only screen and (max-width: 990px) {
-            height: auto;
-        }
-    }
-=======
     height: auto;
     margin-top: 100px;
     margin-bottom: 50px;
->>>>>>> 4f5e747fc6041adbc638eba6d836f470ec72904d
 }
 
 .section-advantages {
@@ -182,10 +162,10 @@ body {
 .section-technologies {
     width: 100%;
     height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
     background-color: #383E3C;
     padding: 30px;
+    padding-bottom: 60px;
+    padding-top: 60px;
 
     .technology-cards-container {
         display: flex;
@@ -273,8 +253,8 @@ body {
 .section-partners {
     width: 100%;
     height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #383E3C;
     padding: 100px;
 
