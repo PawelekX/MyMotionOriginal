@@ -296,15 +296,79 @@ body {
 .section-contact {
     width: 100%;
     height: auto;
+    padding: 100px;
     padding-top: 60px;
     padding-bottom: 60px;
-    padding: 100px;
 
-    .contact-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-
+    @media only screen and (max-width: 600px) {
+        padding-left: 10px;
+        padding-right: 10px;
     }
+
+    .contact-card {
+        background-color: #F2F2F2;
+        border-radius: 12px;
+
+
+        .form-card {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 550px;
+
+            @media only screen and (max-width:1024px) {
+                height: auto;
+            }
+
+            label {
+                align-self: flex-start;
+                font-weight: 500;
+            }
+
+            input, textarea {
+                width: 100%;
+                border: 0;
+                border-bottom: 2px solid black;
+                padding: 5px;
+                margin: 10px;
+            }
+
+            
+        }
+
+        .about-us-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            text-align: left;
+            padding: 40px;
+            height: 550px;
+
+            @media only screen and (max-width: 1024px) {
+                padding: 10px;
+                padding-top: 30px;
+                height: auto;
+            }
+        }
+
+        .info-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+            height: 150px;
+
+            i {
+                margin-right: 5px;
+            }
+
+            ul {
+                list-style-type: decimal;
+                padding-bottom: 0;
+            }
+        }
+    }
+
 }

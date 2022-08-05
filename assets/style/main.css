@@ -278,49 +278,70 @@ body {
 .section-contact {
   width: 100%;
   height: auto;
+  padding: 100px;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .section-contact {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 .section-contact .contact-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
   background-color: #F2F2F2;
-  color: black;
   border-radius: 12px;
-  height: auto;
-  padding: 30px;
 }
 .section-contact .contact-card .form-card {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 550px;
+}
+@media only screen and (max-width: 1024px) {
+  .section-contact .contact-card .form-card {
+    height: auto;
+  }
+}
+.section-contact .contact-card .form-card label {
+  align-self: flex-start;
+  font-weight: 500;
+}
+.section-contact .contact-card .form-card input, .section-contact .contact-card .form-card textarea {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+.section-contact .contact-card .about-us-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 40px;
+  height: 550px;
+}
+@media only screen and (max-width: 1024px) {
+  .section-contact .contact-card .about-us-card {
+    padding: 10px;
+    padding-top: 30px;
+    height: auto;
+  }
+}
+.section-contact .contact-card .info-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 40px;
+  height: 150px;
 }
-.section-contact .contact-card .form-card label {
-  text-align: left;
+.section-contact .contact-card .info-card i {
+  margin-right: 5px;
 }
-.section-contact .contact-card .form-card input {
-  border: 0;
-  border-bottom: 2px solid black;
-  padding: 10px;
-  width: 100%;
-}
-.section-contact .contact-card .form-card textarea {
-  border: 0;
-  border-bottom: 2px solid black;
-}
-.section-contact .contact-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  background-color: #F2F2F2;
-  color: black;
-  border-radius: 12px;
-  height: auto;
-  padding: 50px;
+.section-contact .contact-card .info-card ul {
+  list-style-type: decimal;
+  padding-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
