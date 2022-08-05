@@ -165,13 +165,21 @@ body {
   flex-wrap: wrap;
   height: auto;
   width: 100%;
+  padding-top: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  .section-technologies .technology-cards-container {
+    padding-top: 0;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .section-technologies .technology-card-first-theme {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   margin: 10px;
-  height: 580px;
+  height: auto;
   max-width: 400px;
   background-color: #5FABF1;
   color: white;
@@ -179,12 +187,19 @@ body {
   padding: 10px;
   margin-top: 70px;
 }
+@media only screen and (max-width: 1024px) {
+  .section-technologies .technology-card-first-theme {
+    margin-top: 0px;
+  }
+}
 .section-technologies .technology-card-first-theme h5 {
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  padding: 10px;
 }
 .section-technologies .technology-card-first-theme span {
   font-size: 18px;
+  padding: 10px;
 }
 @media only screen and (max-width: 600px) {
   .section-technologies .technology-card-first-theme span {
@@ -193,6 +208,7 @@ body {
 }
 .section-technologies .technology-card-first-theme .icons-technology-container {
   padding: 20px;
+  margin-top: 20px;
   -webkit-clip-path: circle();
           clip-path: circle();
   background-color: white;
@@ -205,19 +221,26 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   margin: 10px;
-  height: 580px;
+  height: auto;
   max-width: 400px;
   background-color: white;
   color: #5FABF1;
   text-align: center;
   padding: 10px;
 }
+@media only screen and (max-width: 1024px) {
+  .section-technologies .technology-card-second-theme {
+    margin-top: 0;
+  }
+}
 .section-technologies .technology-card-second-theme h5 {
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  padding: 10px;
 }
 .section-technologies .technology-card-second-theme span {
   font-size: 17px;
+  padding: 10px;
   color: black;
 }
 @media only screen and (max-width: 600px) {
@@ -227,6 +250,7 @@ body {
 }
 .section-technologies .technology-card-second-theme .icons-technology-container {
   padding: 20px;
+  margin-top: 20px;
   -webkit-clip-path: circle();
           clip-path: circle();
   background-color: #5FABF1;
@@ -258,18 +282,45 @@ body {
   padding-bottom: 60px;
   padding: 100px;
 }
-.section-contact .contact-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.section-contact .contact-container .contact-card {
+.section-contact .contact-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
   background-color: #F2F2F2;
   color: black;
   border-radius: 12px;
-  height: 500px;
+  height: auto;
+  padding: 30px;
+}
+.section-contact .contact-card .form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-contact .contact-card .form-card label {
+  text-align: left;
+}
+.section-contact .contact-card .form-card input {
+  border: 0;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  width: 100%;
+}
+.section-contact .contact-card .form-card textarea {
+  border: 0;
+  border-bottom: 2px solid black;
+}
+.section-contact .contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #F2F2F2;
+  color: black;
+  border-radius: 12px;
+  height: auto;
+  padding: 50px;
 }/*# sourceMappingURL=main.css.map */
