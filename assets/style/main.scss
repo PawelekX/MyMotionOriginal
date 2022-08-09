@@ -76,6 +76,15 @@ body {
     height: auto;
     padding-top: 60px;
     padding-bottom: 60px;
+
+    .describe-card {
+        background-color: #F2F2F2; 
+        border-radius: 12px;
+        color: black;
+        height: auto;
+        text-align: center;
+        margin: 0;
+    }
 }
 
 .section-advantages {
