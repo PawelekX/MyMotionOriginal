@@ -25,21 +25,6 @@ body {
   font-size: 20px;
 }
 
-.videos {
-  width: 50%;
-}
-@media only screen and (max-width: 768px) {
-  .videos {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 769px) {
-  .video-text {
-    max-width: 350px;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   .arrows {
     display: none;
@@ -85,9 +70,14 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: auto;
+  height: 600px;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+@media only screen and (max-width: 1023px) {
+  .section-slider {
+    height: auto;
+  }
 }
 .section-slider .describe-card {
   background-color: #F2F2F2;
@@ -96,6 +86,19 @@ body {
   height: auto;
   text-align: center;
   margin: 0;
+}
+.section-slider .videos {
+  width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .section-slider .videos {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .section-slider .video-text {
+    max-width: 350px;
+  }
 }
 
 .section-advantages {
@@ -327,6 +330,7 @@ body {
 @media only screen and (max-width: 1024px) {
   .section-contact .contact-card .form-card {
     height: auto;
+    padding: 10px;
   }
 }
 .section-contact .contact-card .form-card label {
