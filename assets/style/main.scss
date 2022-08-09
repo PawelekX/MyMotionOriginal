@@ -203,6 +203,13 @@ body {
         flex-wrap: wrap;
         height: auto;
         width: 100%;
+        padding-top: 20px;
+
+        @media only screen and (max-width: 1024px) {
+            padding-top: 0;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     .technology-card-first-theme {
@@ -210,7 +217,7 @@ body {
         flex-direction: column;
         justify-content: space-evenly;
         margin: 10px;
-        height: 580px;
+        height: auto;
         max-width: 400px;
         background-color: #5FABF1;
         color: white;
@@ -218,13 +225,19 @@ body {
         padding: 10px;
         margin-top: 70px;
         
+        @media only screen and (max-width: 1024px) {
+            margin-top: 0px;
+        }
+
         h5 {
             text-transform: uppercase;
             letter-spacing: 1.5px;
+            padding: 10px;
         }
         
         span {
             font-size: 18px;
+            padding: 10px;
             @media only screen and (max-width: 600px) {
                 font-size: 17px;
             }
@@ -232,6 +245,7 @@ body {
 
         .icons-technology-container {
             padding: 20px;
+            margin-top: 20px;
             clip-path: circle();
             background-color: white;
         
@@ -247,20 +261,26 @@ body {
         flex-direction: column;
         justify-content: space-evenly;
         margin: 10px;
-        height: 580px;
+        height: auto;
         max-width: 400px;
         background-color: white;
         color: #5FABF1;
         text-align: center;
         padding: 10px;
 
+        @media only screen and (max-width: 1024px) {
+            margin-top: 0;
+        }
+
         h5 {
             text-transform: uppercase;
             letter-spacing: 1.5px;
+            padding: 10px;
         }
         
         span {
             font-size: 17px;
+            padding: 10px;
             @media only screen and (max-width: 600px) {
                 font-size: 16px;
             }
@@ -269,6 +289,7 @@ body {
 
         .icons-technology-container {
             padding: 20px;
+            margin-top: 20px;
             clip-path: circle();
             background-color: #5FABF1;
         
@@ -299,24 +320,79 @@ body {
 .section-contact {
     width: 100%;
     height: auto;
+    padding: 100px;
     padding-top: 60px;
     padding-bottom: 60px;
-    padding: 100px;
 
-    .contact-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    @media only screen and (max-width: 600px) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-        .contact-card {
+    .contact-card {
+        background-color: #F2F2F2;
+        border-radius: 12px;
+
+
+        .form-card {
+            padding: 40px;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            justify-content: flex-start;
             align-items: center;
-            background-color: #F2F2F2; 
-            color: black;
-            border-radius: 12px;
-            height: 500px;
+            height: 550px;
+
+            @media only screen and (max-width:1024px) {
+                height: auto;
+            }
+
+            label {
+                align-self: flex-start;
+                font-weight: 500;
+            }
+
+            input, textarea {
+                width: 100%;
+                border: 0;
+                border-bottom: 2px solid black;
+                padding: 5px;
+                margin: 10px;
+            }
+
+            
+        }
+
+        .about-us-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            text-align: left;
+            padding: 40px;
+            height: 550px;
+
+            @media only screen and (max-width: 1024px) {
+                padding: 10px;
+                padding-top: 30px;
+                height: auto;
+            }
+        }
+
+        .info-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+            height: 150px;
+
+            i {
+                margin-right: 5px;
+            }
+
+            ul {
+                list-style-type: decimal;
+                padding-bottom: 0;
+            }
         }
     }
+
 }
