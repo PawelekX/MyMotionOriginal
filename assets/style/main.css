@@ -58,6 +58,7 @@ body {
   font-size: 20px;
   width: 100%;
   max-width: 400px;
+  color: white;
 }
 .section-fold .nav {
   position: absolute;
@@ -86,6 +87,7 @@ body {
   height: auto;
   text-align: center;
   margin: 0;
+  padding: 16px;
 }
 .section-slider .videos {
   width: 50%;
@@ -113,6 +115,7 @@ body {
   color: black;
   height: 320px;
   text-align: center;
+  padding: 16px;
 }
 .section-advantages .describe-card img {
   width: 80px;
@@ -132,6 +135,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 500px;
+  padding: 16px;
 }
 
 .section-recommendations {
