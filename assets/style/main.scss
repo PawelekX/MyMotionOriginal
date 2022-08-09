@@ -26,6 +26,20 @@ body {
     font-size: 20px;
 }
 
+.videos {
+    width: 50%;
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.video-text {
+    
+    @media only screen and (min-width: 769px) {
+        max-width: 350px;
+    }
+}
+
 .arrows {
     @media only screen and (max-width: 600px) {
         display: none;
@@ -97,7 +111,8 @@ body {
         background-color: #F2F2F2; 
         border-radius: 12px;
         color: black;
-        height: auto;
+        height: 320px;
+        text-align: center;
         
 
         img {
