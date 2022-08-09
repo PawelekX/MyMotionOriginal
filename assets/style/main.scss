@@ -323,6 +323,13 @@ body {
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+
+        .partner-image-container {
+            padding: 20px;
+            img {
+                width: 200px;
+            }
+        }
     }
 }
 

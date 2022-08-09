@@ -305,6 +305,12 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+.section-partners .partners-container .partner-image-container {
+  padding: 20px;
+}
+.section-partners .partners-container .partner-image-container img {
+  width: 200px;
+}
 
 .section-contact {
   width: 100%;
