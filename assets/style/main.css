@@ -312,6 +312,21 @@ body {
   width: 200px;
 }
 
+.notifications {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 10px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+}
+
 .section-contact {
   width: 100%;
   height: auto;
