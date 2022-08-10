@@ -356,7 +356,7 @@ body {
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
-            height: 550px;
+            height: 600px;
 
             @media only screen and (max-width:1024px) {
                 height: auto;
@@ -374,6 +374,7 @@ body {
                 border-bottom: 2px solid black;
                 padding: 5px;
                 margin: 10px;
+                max-height: 1000px;
             }
 
             
@@ -385,7 +386,7 @@ body {
             justify-content: flex-start;
             text-align: left;
             padding: 40px;
-            height: 550px;
+            height: 600px;
 
             @media only screen and (max-width: 1024px) {
                 padding: 10px;
@@ -397,7 +398,7 @@ body {
         .info-card {
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             padding: 40px;
             height: 150px;
 
