@@ -3,6 +3,13 @@ let $document = $(document);
 let $parallaxs = $(".parallax");
 const isMobile = navigator.userAgentData.mobile;
 
+window.onload = function() {
+    const loadingAlert = document.getElementById("loading");
+    setTimeout(() => { 
+        loadingAlert.style.display = "none";
+    }, 1000);
+   }
+
 $document.ready(() => {
     parallax();
 });

@@ -13,13 +13,20 @@
 </head>
 
 <body>
+    <div class="notifications" style="background-color: #28A745;" id="success">
+        You just sent the email!
+    </div>
+    <div class="notifications" style="background-color: #DC3545;" id="error">
+        You failed to send your email, please try again!
+    </div>
+
+    <div id="loading">
+        <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+    </div>
+
     <main>
-        <div class="notifications" style="background-color: #28A745;" id="success">
-            You've successfully sent your email!
-        </div>
-        <div class="notifications" style="background-color: #DC3545;" id="error">
-            You failed to send your email, please try again!
-        </div>
         <section class="section-fold parallax">
             <nav class="navbar nav navbar-light text-white">
                 <a class="btn p-2" href="index.html" role="button">
