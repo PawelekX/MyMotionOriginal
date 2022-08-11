@@ -109,6 +109,12 @@ body {
   padding-bottom: 60px;
   height: auto;
 }
+@media only screen and (max-width: 600px) {
+  .section-advantages {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 .section-advantages .describe-card {
   background-color: #F2F2F2;
   border-radius: 12px;
@@ -116,6 +122,10 @@ body {
   height: 320px;
   text-align: center;
   padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .section-advantages .describe-card img {
   width: 80px;
@@ -144,9 +154,15 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media only screen and (max-width: 600px) {
+  .section-recommendations {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 .section-recommendations .recommendations-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
 }
 .section-recommendations .recommendations-container .recommendations-img {
@@ -330,7 +346,6 @@ body {
 .section-contact {
   width: 100%;
   height: auto;
-  padding: 100px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -348,14 +363,15 @@ body {
   padding: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: 600px;
 }
 @media only screen and (max-width: 1024px) {
   .section-contact .contact-card .form-card {
     height: auto;
-    padding: 10px;
+    padding: auto;
+    padding-top: 30px;
   }
 }
 .section-contact .contact-card .form-card label {
@@ -380,7 +396,7 @@ body {
 }
 @media only screen and (max-width: 1024px) {
   .section-contact .contact-card .about-us-card {
-    padding: 10px;
+    padding: auto;
     padding-top: 30px;
     height: auto;
   }
@@ -391,6 +407,13 @@ body {
   justify-content: flex-start;
   padding: 40px;
   height: 150px;
+}
+@media only screen and (max-width: 1024px) {
+  .section-contact .contact-card .info-card {
+    padding: auto;
+    padding-top: 30px;
+    height: auto;
+  }
 }
 .section-contact .contact-card .info-card i {
   margin-right: 5px;
