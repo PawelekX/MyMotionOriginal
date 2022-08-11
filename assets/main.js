@@ -1,13 +1,14 @@
 let $window = $(window);
 let $document = $(document);
 let $parallaxs = $(".parallax");
+const isMobile = navigator.userAgentData.mobile;
 
 $document.ready(() => {
     parallax();
 });
 
 $(window).scroll(() => {
-    parallax();
+   if(!isMobile) parallax();
 });
 
 function parallax() {
@@ -19,7 +20,8 @@ function parallax() {
             let y = -$el.height() * (ratio / 2);
 
             $el.css({
-                backgroundPosition: `center ${y}px`
+                backgroundPosition: `center ${y}px`,
+                backgroundAttachment: (isMobile) ? "scroll" : "fixed"
             });
         }
     }
