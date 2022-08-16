@@ -2,7 +2,8 @@
 require_once('class.phpmailer.php');    //dodanie klasy phpmailer
 require_once('class.smtp.php');    //dodanie klasy smtp
 $mail = new PHPMailer();    //utworzenie nowej klasy phpmailer
-$mail->CharSet = 'ISO-8859-1';
+$mail->CharSet = 'UTF-8';
+$mail->Encoding = 'base64';
 
 $from = $_POST['email'];
 $fullName = $_POST['fullName'];
